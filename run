@@ -1,0 +1,2 @@
+# Usage: docker run --name <name for container> -d <user-name>/<repository>
+docker run -p 27017:27017 --name rabbit_mongo -d rabbit/mongo

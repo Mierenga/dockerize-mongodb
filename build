@@ -1,0 +1,2 @@
+# Format: docker build --tag/-t <user-name>/<repository> .
+docker build --tag "$1"/"$2" .
